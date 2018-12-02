@@ -54,8 +54,6 @@ calculateFrequency(list);
 
 // calculateFrequency =  578
 
-// --- Part Two ---
-
 /* 
 You notice that the device repeats the same frequency change list over and over. To calibrate the device, 
 you need to find the first frequency it reaches twice.
@@ -79,6 +77,8 @@ Here are other examples:
 +7, +7, -2, -7, -4 first reaches 14 twice.
 What is the first frequency your device reaches twice?
 */
+
+// --- Part Two ---
 
 const findFrequencyDuplicate = (list: Array<number>) => {
   const frequencyTrack: Array<number> = [];
