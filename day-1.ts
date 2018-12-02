@@ -81,9 +81,9 @@ What is the first frequency your device reaches twice?
 */
 
 const findFrequencyDuplicate = (list: Array<number>) => {
-  const frequencyTrack: any = [];
+  const frequencyTrack: Array<number> = [];
   let frequency: number = 0;
-  let repeat = false;
+  let repeat: boolean = false;
 
   do {
     for (let freq of list) {
